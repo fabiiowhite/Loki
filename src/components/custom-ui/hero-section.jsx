@@ -16,7 +16,7 @@ export default function heroSection() {
                 </div>
             </Badge>
 
-            <h1 className='text-[#0F172A] font-bold text-4xl mb-[1rem] w-[50%] text-center'>Too lazy to create a secure password?</h1>
+            <h1 className='text-[#0F172A] font-bold text-4xl mb-[1rem] w-[50%] text-center sm:w-[90%]'>Too lazy to create a secure password?</h1>
 
             <Card className='my-[1rem]'>
                 <CardHeader>
@@ -38,12 +38,12 @@ export default function heroSection() {
                   
                 </CardContent>
 
-                <CardFooter className= 'flex flex-row-reverse'>
+                <CardFooter className= 'flex jusify-center'>
                     <Button>Generate</Button>
                 </CardFooter>
             </Card>
 
-            <p className='text-[#64748B] w-[45%] text-center mt-2'>This project incorporated ideologies learned during the lectures of Information Security and Communications.</p>
+            <p className='text-[#64748B] w-[45%] text-center mt-2 sm:w-[90%]'>This project incorporated ideologies learned during the lectures of Information Security and Communications.</p>
 
 
         </div>
